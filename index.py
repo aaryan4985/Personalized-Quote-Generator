@@ -34,9 +34,9 @@ personalized_quote = generate_quote(user_name, user_topic)
 print("\nYour personalized quote:")
 print(personalized_quote)
 
-# Optional: Save to file
+
 save_to_file = input("\nDo you want to save this quote to a file? (yes/no): ").lower()
 if save_to_file == "yes":
     with open("personalized_quote.txt", "w") as file:
         file.write(personalized_quote + "\n")
-    print("Quote saved to personalized_quote.txt!")
+    print("Quote saved to your personalized_quote.txt!")
